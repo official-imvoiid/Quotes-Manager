@@ -85,7 +85,6 @@ class QuotesManager:
         try:
             if os.path.exists('MYQuotes.py'):
                 print("Running MYQuotes.py...")
-                print("It will populate the database. Wait for it to finish.")
                 # Run MYQuotes.py interactively and wait for it to end
                 import subprocess
                 subprocess.call([sys.executable, 'MYQuotes.py'])
